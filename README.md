@@ -1,5 +1,9 @@
 ﻿# 🐾 Cat vs Dog Image Classifier
 
+## 🌐 Live Project
+
+https://cat-vs-dog-image-classification-using-transfer-learning-3v5de8.streamlit.app/
+
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python) ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange?logo=tensorflow) ![Streamlit](https://img.shields.io/badge/Streamlit-1.60-red?logo=streamlit) ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
