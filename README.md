@@ -4,7 +4,7 @@
 
 https://cat-vs-dog-image-classification-using-transfer-learning-3v5de8.streamlit.app/
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python) ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange?logo=tensorflow) ![Streamlit](https://img.shields.io/badge/Streamlit-1.60-red?logo=streamlit)
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python) ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16%2B-orange?logo=tensorflow) ![Streamlit](https://img.shields.io/badge/Streamlit-%E2%89%A51.35-red?logo=streamlit)
 
 ---
 
@@ -40,7 +40,10 @@ cat vs dog/
 ├── best_efficientnet_model.h5    # Saved weights — EfficientNetB0
 ├── best_resnet50_model.h5        # Saved weights — ResNet50
 ├── Cats_vs_Dogs_Classification_v1_final.ipynb  # Training notebook
+├── README.md                      # Project documentation
 ├── requirements.txt              # Python dependencies
+├── runtime.txt                   # Deployment runtime (Python 3.11)
+├── .python-version               # Local Python version pin
 ├── .gitignore
 └── .streamlit/
     └── config.toml               # Streamlit server config
@@ -50,9 +53,9 @@ cat vs dog/
 
 ## ⚙️ Setup & Installation
 
-### 1. Create a virtual environment (Python 3.10)
+### 1. Create a virtual environment (Python 3.11)
 ```powershell
-py -3.10 -m venv .venv
+py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
@@ -88,7 +91,7 @@ Then open **http://localhost:8501** in your browser.
 
 | Package | Version |
 |---|---|
-| TensorFlow | 2.15.0 |
+| TensorFlow | 2.16.2 (Python < 3.12), tf-nightly (Python >= 3.12) |
 | Streamlit | ≥ 1.35.0 |
 | NumPy | ≥ 1.23.5 |
 | Pillow | ≥ 10.0.0 |
